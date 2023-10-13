@@ -50,33 +50,34 @@ Designed by Dr. PSK, GIM, Goa</tw-passagedata><tw-passagedata pid="2" name=" Bra
     &lt;p id=&quot;response&quot;&gt;&lt;/p&gt;
 
 ==============================
-    &lt;script&gt;
-        function calculateResponse() {
-            const setA = document.getElementById(&quot;setA&quot;).value;
-            const setB = document.getElementById(&quot;setB&quot;).value;
+<script>
+    function calculateResponse() {
+        const setA = document.getElementById("setA").value;
+        const setB = document.getElementById("setB").value;
 
-            let response = 0;
+        let response = 0;
 
-            if (setA === &quot;TECH-SAVVY MILLENNIALS&quot; &amp;&amp; setB === &quot;Tomorrow&#39;s Tech. Today!&quot;) response = &quot;Wow! You Dominate the TECH-SAVVY MILLENNIALS market, Keep it up!&quot;;
-            else if (setA === &quot;TECH-SAVVY MILLENNIALS&quot; &amp;&amp; setB === &quot;Smart Apps., Unleash Potential!&quot;) response = &quot;OOPS. Competition has done a better job and is way ahead of you in the TECH-SAVVY MILLENNIALS market, Try again - All the best!&quot;;
-            else if (setA === &quot;TECH-SAVVY MILLENNIALS&quot; &amp;&amp; setB === &quot;Smart Savings, Every Day!&quot;) response = &quot;OOPS. Competition has done a better job and is way ahead of you in the TECH-SAVVY MILLENNIALS market, Try Again- All the best!&quot;;
-            else if (setA === &quot;TECH-SAVVY MILLENNIALS&quot; &amp;&amp; setB === &quot;Celebrating Life, Across Ages!&quot;) response = &quot;OOPS. Competition has done a better job and is way ahead of you in the TECH-SAVVY MILLENNIALS market, Try again - All the best!&quot;;
-            else if (setA === &quot;WORKING PROFESSIONALS&quot; &amp;&amp; setB === &quot;Tomorrow&#39;s Tech. Today!&quot;) response = &quot;I am afraid. Competition is doing a better job and is way ahead of you in the WORKING PROFESSIONALS market, Try again - All the best!&quot;;
-            else if (setA === &quot;WORKING PROFESSIONALS&quot; &amp;&amp; setB === &quot;Smart Apps., Unleash Potential!&quot;) response = &quot;Cool! You are dominating the WORKING PROFESSIONALS market, Keep it up!&quot;;
-            else if (setA === &quot;WORKING PROFESSIONALS&quot; &amp;&amp; setB === &quot;Smart Savings, Every Day!&quot;) response = &quot;I am afraid. Competition is doing a better job and is way ahead of you in the WORKING PROFESSIONALS market, Try again - All the best!&quot;;
-            else if (setA === &quot;WORKING PROFESSIONALS&quot; &amp;&amp; setB === &quot;Celebrating Life, Across Ages!&quot;) response = &quot;I am afraid. Competition is doing a better job and is way ahead of you in the WORKING PROFESSIONALS market, Try again - All the best!&quot;;
-            else if (setA === &quot;BUDGET-CONSCIOUS SHOPPERS&quot; &amp;&amp; setB === &quot;Tomorrow&#39;s Tech. Today!&quot;) response = &quot;Oh no. Competition has a better positioning and is way ahead of you in the BUDGET-CONSCIOUS SHOPPERS market, Try again - All the best!&quot;;
-            else if (setA === &quot;BUDGET-CONSCIOUS SHOPPERS&quot; &amp;&amp; setB === &quot;Smart Apps., Unleash Potential!&quot;) response = &quot;Oh no. Competition has a better positioning and is way ahead of you in the BUDGET-CONSCIOUS SHOPPERS market, Try again - All the best!&quot;;
-            else if (setA === &quot;BUDGET-CONSCIOUS SHOPPERS&quot; &amp;&amp; setB === &quot;Smart Savings, Every Day!&quot;) response = &quot;Hurray! You Dominate the BUDGET-CONSCIOUS SHOPPERS market, Keep it up!&quot;;
-            else if (setA === &quot;BUDGET-CONSCIOUS SHOPPERS&quot; &amp;&amp; setB === &quot;Celebrating Life, Across Ages!&quot;) response = &quot;Oh no. Competition has a better positioning and is way ahead of you in the BUDGET-CONSCIOUS SHOPPERS market, Try again - All the best!&quot;;
-            else if (setA === &quot;ELDERLY USERS&quot; &amp;&amp; setB === &quot;Tomorrow&#39;s Tech. Today!&quot;) response = &quot;I am Sorry. Competition is way ahead of you in the ELDERLY USERS market, Try again - All the best!&quot;;
-            else if (setA === &quot;ELDERLY USERS&quot; &amp;&amp; setB === &quot;Smart Apps., Unleash Potential!&quot;) response = &quot;I am Sorry. Competition is way ahead of you in the ELDERLY USERS market, Try again - All the best!&quot;;
-            else if (setA === &quot;ELDERLY USERS&quot; &amp;&amp; setB === &quot;Smart Savings, Every Day!&quot;) response = &quot;I am Sorry. Competition is way ahead of you in the ELDERLY USERS market, Try again - All the best!&quot;;
-            else if (setA === &quot;ELDERLY USERS&quot; &amp;&amp; setB === &quot;Celebrating Life, Across Ages!&quot;) response = &quot;Amazing! You are dominating the ELDERLY USERS market, Keep it up!&quot;;
+        if (setA === "TECH-SAVVY MILLENNIALS" && setB === "Tomorrow's Tech. Today!") response = "Wow! You Dominate the TECH-SAVVY MILLENNIALS market, Keep it up!";
+        else if (setA === "TECH-SAVVY MILLENNIALS" && setB === "Smart Apps., Unleash Potential!") response = "OOPS. Competition has done a better job and is way ahead of you in the TECH-SAVVY MILLENNIALS market, Try again - All the best!";
+        else if (setA === "TECH-SAVVY MILLENNIALS" && setB === "Smart Savings, Every Day!") response = "OOPS. Competition has done a better job and is way ahead of you in the TECH-SAVVY MILLENNIALS market, Try Again- All the best!";
+        else if (setA === "TECH-SAVVY MILLENNIALS" && setB === "Celebrating Life, Across Ages!") response = "OOPS. Competition has done a better job and is way ahead of you in the TECH-SAVVY MILLENNIALS market, Try again - All the best!";
+        else if (setA === "WORKING PROFESSIONALS" && setB === "Tomorrow's Tech. Today!") response = "I am afraid. Competition is doing a better job and is way ahead of you in the WORKING PROFESSIONALS market, Try again - All the best!";
+        else if (setA === "WORKING PROFESSIONALS" && setB === "Smart Apps., Unleash Potential!") response = "Cool! You are dominating the WORKING PROFESSIONALS market, Keep it up!";
+        else if (setA === "WORKING PROFESSIONALS" && setB === "Smart Savings, Every Day!") response = "I am afraid. Competition is doing a better job and is way ahead of you in the WORKING PROFESSIONALS market, Try again - All the best!";
+        else if (setA === "WORKING PROFESSIONALS" && setB === "Celebrating Life, Across Ages") response = "I am afraid. Competition is doing a better job and is way ahead of you in the WORKING PROFESSIONALS market, Try again - All the best!";
+        else if (setA === "BUDGET-CONSCIOUS SHOPPERS" && setB === "Tomorrow's Tech. Today") response = "Oh no. Competition has a better positioning and is way ahead of you in the BUDGET-CONSCIOUS SHOPPERS market, Try again - All the best!";
+        else if (setA === "BUDGET-CONSCIOUS SHOPPERS" && setB === "Smart Apps., Unleash Potential") response = "Oh no. Competition has a better positioning and is way ahead of you in the BUDGET-CONSCIOUS SHOPPERS market, Try again - All the best!";
+        else if (setA === "BUDGET-CONSCIOUS SHOPPERS" && setB === "Smart Savings, Every Day") response = "Hurray! You Dominate the BUDGET-CONSCIOUS SHOPPERS market, Keep it up!";
+        else if (setA === "BUDGET-CONSCIOUS SHOPPERS" && setB === "Celebrating Life, Across Ages") response = "Oh no. Competition has a better positioning and is way ahead of you in the BUDGET-CONSCIOUS SHOPPERS market, Try again - All the best!";
+        else if (setA === "ELDERLY USERS" && setB === "Tomorrow's Tech. Today") response = "I am Sorry. Competition is way ahead of you in the ELDERLY USERS market, Try again - All the best!";
+        else if (setA === "ELDERLY USERS" && setB === "Smart Apps., Unleash Potential") response = "I am Sorry. Competition is way ahead of you in the ELDERLY USERS market, Try again - All the best!";
+        else if (setA === "ELDERLY USERS" && setB === "Smart Savings, Every Day") response = "I am Sorry. Competition is way ahead of you in the ELDERLY USERS market, Try again - All the best!";
+        else if (setA === "ELDERLY USERS" && setB === "Celebrating Life, Across Ages") response = "Amazing! You are dominating the ELDERLY USERS market, Keep it up!";
 
-            document.getElementById(&quot;response&quot;).textContent = `Response: ${response}`;
-        }
-    &lt;/script&gt;
+        document.getElementById("response").textContent = `Response: ${response}`;
+    }
+</script>
+
 &lt;/body&gt;
 
 &lt;/p&gt;
